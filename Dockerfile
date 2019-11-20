@@ -1,5 +1,6 @@
 FROM java
 MAINTAINER jimmy
+RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8B48AD6246925553
 RUN apt-get update
 RUN apt-get install -y wget
 
